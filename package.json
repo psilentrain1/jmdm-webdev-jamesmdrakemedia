@@ -1,7 +1,9 @@
 {
   "name": "jmdm-webdev-jamesmdrakemedia",
+  "productName": "James M. Drake Media Website",
+  "description": "The web home of James M. Drake, Jr. Camera Operator",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,9 +11,22 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "keywords": [],
+  "author": {
+    "name": "James Drake",
+    "email": "info@jamesmdrakemedia.com",
+    "url": "https://jamesmdrakemedia.com"
+  },
+  "homepage": "https://github.com/psilentrain1/jmdm-webdev-jamesmdrakemedia#readme",
+  "bugs": {
+    "url": "https://github.com/psilentrain1/jmdm-webdev-jamesmdrakemedia/issues",
+    "email": "info@jamesmdrakemedia.com"
+  },
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.2.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
@@ -21,6 +36,8 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
+    "react-router-dom": "^6.23.1",
+    "sass": "^1.77.5",
     "vite": "^5.2.0"
   }
 }
