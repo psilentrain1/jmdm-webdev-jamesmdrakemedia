@@ -1,4 +1,5 @@
 export function Footer() {
+  /* eslint-disable-next-line no-undef */
   const version = APP_VERSION
 
   return (
@@ -22,15 +23,16 @@ export function Footer() {
           </div>
         </div>
       </section>
-      <section className="flex h-10 w-full flex-col justify-center bg-primary-950 text-center text-sm text-primary-200">
+      <section className="flex h-10 w-full flex-col justify-center bg-primary-950 text-center text-xs text-primary-200">
         <p>
-          &copy;2024 James M. Drake, Jr. All rights reserved. Site version {version}.{" "}
+          &copy;2024 James M. Drake, Jr. All rights reserved. All media copyright their respective owners.{" "}
           <a
             className="underline"
             href="https://github.com/psilentrain1/jmdm-webdev-jamesmdrakemedia/issues/new"
             target="_blank">
             Report an issue with this website.
-          </a>
+          </a>{" "}
+          Site version <strong>{version}</strong>.
         </p>
       </section>
     </>
