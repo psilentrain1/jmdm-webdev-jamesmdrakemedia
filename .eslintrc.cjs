@@ -17,7 +17,7 @@ module.exports = {
     "no-duplicate-imports": "warn",
     camelcase: "warn",
     eqeqeq: "warn",
-    "func-style": "warn",
+    "func-style": "off",
     "no-console": "warn",
     "no-magic-numbers": "warn",
     "no-unneeded-ternary": "warn",
