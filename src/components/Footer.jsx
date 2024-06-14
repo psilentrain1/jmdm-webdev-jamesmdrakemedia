@@ -1,5 +1,6 @@
 import { IconContext } from "react-icons"
 import { FaXTwitter, FaInstagram, FaFacebookF } from "react-icons/fa6"
+import { Link } from "react-router-dom"
 
 export function Footer() {
   /* eslint-disable-next-line no-undef */
@@ -14,7 +15,9 @@ export function Footer() {
             <ul>
               <li>Home</li>
               <li>About Me</li>
-              <li>Credits</li>
+              <li>
+                <Link to="/credits">Credits</Link>
+              </li>
               <li>Contact</li>
             </ul>
           </div>
