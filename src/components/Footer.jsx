@@ -14,16 +14,24 @@ export function Footer() {
             <h3 className="mb-2 text-xl font-bold">Links</h3>
             <ul>
               <li>
-                <Link to="/#Hero">Home</Link>
+                <Link to="/#Hero" className="transition-all hover:underline">
+                  Home
+                </Link>
               </li>
               <li>
-                <Link to="/#About">About Me</Link>
+                <Link to="/#About" className="transition-all hover:underline">
+                  About Me
+                </Link>
               </li>
               <li>
-                <Link to="/#Contact">Contact</Link>
+                <Link to="/#Contact" className="transition-all hover:underline">
+                  Contact
+                </Link>
               </li>
               <li>
-                <Link to="/credits">Credits</Link>
+                <Link to="/credits" className="transition-all hover:underline">
+                  Credits
+                </Link>
               </li>
             </ul>
           </div>

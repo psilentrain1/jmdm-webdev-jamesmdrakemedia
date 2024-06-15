@@ -14,13 +14,13 @@ export function Header() {
         </div>
         <div className="flex flex-col justify-center">
           <ul className="l flex list-none flex-row justify-evenly gap-6 align-middle">
-            <li>
+            <li className="transition-all hover:underline">
               <Link to="/#About">About</Link>
             </li>
-            <li>
+            <li className="transition-all hover:underline">
               <Link to="/#Contact">Contact</Link>
             </li>
-            <li>
+            <li className="transition-all hover:underline">
               <Link to="/Credits">Credits</Link>
             </li>
           </ul>
