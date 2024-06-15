@@ -9,38 +9,59 @@ function clearFilters() {
   document.getElementById("select4").selectedIndex = 0
 }
 
-const GetCredits = () => {
-  const [credits, setCredits] = useState([])
-  useEffect(() => {
-    fetch("src/store/credits.json")
-      .then(res => {
-        return res.json()
-      })
-      .then(data => {
-        setCredits(data)
-      })
-  }, [])
-
+function getCreditRow(credit, i) {
   return (
-    <>
-      {credits.map((credit, i) => (
-        <tr key={i}>
-          <td>{credit.position}</td>
-          <td>{credit.title}</td>
-          <td>{credit.type}</td>
-          <td>{credit.network}</td>
-          <td>{credit.production}</td>
-          <td>
-            {credit.start[0]}/{credit.start[1]}-{credit.end[0]}/{credit.end[1]}
-          </td>
-        </tr>
-      ))}
-    </>
+    <tr key={i}>
+      <td>{credit.position}</td>
+      <td>{credit.title}</td>
+      <td>{credit.type}</td>
+      <td>{credit.network}</td>
+      <td>{credit.production}</td>
+      <td>
+        {credit.start[0]}/{credit.start[1]}-{credit.end[0]}/{credit.end[1]}
+      </td>
+    </tr>
   )
+}
+
+function getCredits(setCreditsList, setPositionFilterOptions, setTypeFilterOptions) {
+  const data = fetch("src/store/credits.json")
+  data
+    .then(res => {
+      return res.json()
+    })
+    .then(credits => {
+      const newCreditElement = credits.map((credit, i) => getCreditRow(credit, i))
+      const newPositionFilterOption = credits.map((credit, i) => {
+        return (
+          <option key={i} value={credit.position}>
+            {credit.position}
+          </option>
+        )
+      })
+      const newTypeFilterOption = credits.map((credit, i) => {
+        return (
+          <option key={i} value={credit.type}>
+            {credit.type}
+          </option>
+        )
+      })
+      const positions = new Set(newPositionFilterOption)
+      const types = new Set(newTypeFilterOption)
+      setCreditsList(newCreditElement)
+      setPositionFilterOptions(positions)
+      setTypeFilterOptions(types)
+    })
 }
 
 export function Credits() {
   const [filter, setFilter] = useState(false)
+  const [positionFilterOptions, setPositionFilterOptions] = useState([])
+  const [typeFilterOptions, setTypeFilterOptions] = useState([])
+  const [creditsList, setCreditsList] = useState([])
+  useEffect(() => {
+    getCredits(setCreditsList, setPositionFilterOptions, setTypeFilterOptions)
+  }, [])
 
   return (
     <>
@@ -64,20 +85,14 @@ export function Credits() {
                 Position:{" "}
                 <select className="px-3 py-1" name="position" id="position">
                   <option>Filter by position</option>
-                  <option value="1">Test option 1</option>
-                  <option value="2">Test option 2</option>
-                  <option value="3">Test option 3</option>
-                  <option value="4">Test option 4</option>
+                  {positionFilterOptions}
                 </select>
               </label>
-              <label htmlFor="genre">
+              <label htmlFor="type">
                 Genre:{" "}
-                <select className="px-3 py-1" name="genre" id="genre">
+                <select className="px-3 py-1" name="type" id="type">
                   <option value="">Filter by genre</option>
-                  <option value="1">Test option 1</option>
-                  <option value="2">Test option 2</option>
-                  <option value="3">Test option 3</option>
-                  <option value="4">Test option 4</option>
+                  {typeFilterOptions}
                 </select>
               </label>
               <label htmlFor="select3">
@@ -119,9 +134,7 @@ export function Credits() {
                   <th>Dates</th>
                 </tr>
               </thead>
-              <tbody>
-                <GetCredits />
-              </tbody>
+              <tbody>{creditsList}</tbody>
             </table>
           </div>
         </div>
