@@ -2,11 +2,26 @@ import { Header } from "../components/Header.jsx"
 import { Footer } from "../components/Footer.jsx"
 import { useState, useEffect } from "react"
 
-function clearFilters() {
+function clearFilters(setCreditsList, setPositionFilterOptions, setTypeFilterOptions) {
   document.getElementById("position").selectedIndex = 0
-  document.getElementById("genre").selectedIndex = 0
-  document.getElementById("select3").selectedIndex = 0
-  document.getElementById("select4").selectedIndex = 0
+  document.getElementById("type").selectedIndex = 0
+  /*   document.getElementById("select3").selectedIndex = 0
+  document.getElementById("select4").selectedIndex = 0 */
+  getCredits(setCreditsList, setPositionFilterOptions, setTypeFilterOptions)
+}
+
+function filterCreditRow(credit, i, positionFilter, typeFilter) {
+  if (positionFilter === "" && typeFilter === "") {
+    return getCreditRow(credit, i)
+  } else if (positionFilter === credit.position && typeFilter === "") {
+    return getCreditRow(credit, i)
+  } else if (positionFilter === "" && typeFilter === credit.type) {
+    return getCreditRow(credit, i)
+  } else if (positionFilter === credit.position && typeFilter === credit.type) {
+    return getCreditRow(credit, i)
+  } else {
+    return
+  }
 }
 
 function getCreditRow(credit, i) {
@@ -31,7 +46,9 @@ function getCredits(setCreditsList, setPositionFilterOptions, setTypeFilterOptio
       return res.json()
     })
     .then(credits => {
-      const newCreditElement = credits.map((credit, i) => getCreditRow(credit, i))
+      const positionFilter = document.getElementById("position").value
+      const typeFilter = document.getElementById("type").value
+      const newCreditElement = credits.map((credit, i) => filterCreditRow(credit, i, positionFilter, typeFilter))
       const getNewPositionFilterOption = new Set(credits.map(credit => credit.position))
       const newPositionFilterOption = [...getNewPositionFilterOption].map((position, i) => {
         return (
@@ -48,7 +65,6 @@ function getCredits(setCreditsList, setPositionFilterOptions, setTypeFilterOptio
           </option>
         )
       })
-      console.log(getNewTypeFilterOption)
       const positions = new Set(newPositionFilterOption)
       const types = new Set(newTypeFilterOption)
       setCreditsList(newCreditElement)
@@ -86,19 +102,27 @@ export function Credits() {
             <div className="flex flex-row gap-4">
               <label htmlFor="position">
                 Position:{" "}
-                <select className="px-3 py-1" name="position" id="position">
-                  <option>Filter by position</option>
+                <select
+                  className="px-3 py-1"
+                  name="position"
+                  id="position"
+                  onChange={() => getCredits(setCreditsList, setPositionFilterOptions, setTypeFilterOptions)}>
+                  <option value="">Filter by position</option>
                   {positionFilterOptions}
                 </select>
               </label>
               <label htmlFor="type">
                 Genre:{" "}
-                <select className="px-3 py-1" name="type" id="type">
+                <select
+                  className="px-3 py-1"
+                  name="type"
+                  id="type"
+                  onChange={() => getCredits(setCreditsList, setPositionFilterOptions, setTypeFilterOptions)}>
                   <option value="">Filter by genre</option>
                   {typeFilterOptions}
                 </select>
               </label>
-              <label htmlFor="select3">
+              {/* <label htmlFor="select3">
                 Select3:{" "}
                 <select className="px-3 py-1" name="select3" id="select3">
                   <option value="">Filter by Select3</option>
@@ -117,10 +141,12 @@ export function Credits() {
                   <option value="3">Test option 3</option>
                   <option value="4">Test option 4</option>
                 </select>
-              </label>
+              </label> */}
             </div>
             <div className="text-xs underline">
-              <span className="cursor-pointer" onClick={clearFilters}>
+              <span
+                className="cursor-pointer"
+                onClick={() => clearFilters(setCreditsList, setPositionFilterOptions, setTypeFilterOptions)}>
                 Clear filters
               </span>
             </div>
