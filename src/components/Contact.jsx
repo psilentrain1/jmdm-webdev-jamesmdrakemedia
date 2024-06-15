@@ -7,7 +7,7 @@ export function Contact() {
         <a
           href="mailto:info@jamesmdrakemedia.com"
           target="_blank"
-          className="mx-auto flex h-10 w-32 flex-col justify-center bg-accent-600 text-primary-100 hover:bg-accent-500 active:bg-accent-400">
+          className="mx-auto flex h-10 w-32 flex-col justify-center bg-accent-600 text-primary-100 transition-all hover:bg-accent-500 active:bg-accent-400">
           Contact Me
         </a>
       </div>
