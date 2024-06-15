@@ -85,7 +85,7 @@ export function Credits() {
   return (
     <>
       <Header />
-      <section className="mt-14 bg-primary-50 p-10">
+      <section id="top" className="mt-14 bg-primary-50 p-10">
         <div className="mx-auto w-3/4">
           <h1 className="text-3xl font-bold">Credits</h1>
           <div className="font-sm text-primary-500">
