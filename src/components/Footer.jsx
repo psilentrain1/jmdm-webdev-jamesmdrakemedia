@@ -1,6 +1,6 @@
 import { IconContext } from "react-icons"
-import { FaXTwitter, FaInstagram, FaFacebookF } from "react-icons/fa6"
-import { Link } from "react-router-dom"
+import { FaXTwitter, FaInstagram, FaFacebookF, FaLinkedinIn } from "react-icons/fa6"
+import { HashLink as Link } from "react-router-hash-link"
 
 export function Footer() {
   /* eslint-disable-next-line no-undef */
@@ -13,12 +13,18 @@ export function Footer() {
           <div className="w-1/3 p-10">
             <h3 className="mb-2 text-xl font-bold">Links</h3>
             <ul>
-              <li>Home</li>
-              <li>About Me</li>
+              <li>
+                <Link to="/#Hero">Home</Link>
+              </li>
+              <li>
+                <Link to="/#About">About Me</Link>
+              </li>
+              <li>
+                <Link to="/#Contact">Contact</Link>
+              </li>
               <li>
                 <Link to="/credits">Credits</Link>
               </li>
-              <li>Contact</li>
             </ul>
           </div>
           <div className="w-1/3 p-10">
@@ -26,14 +32,17 @@ export function Footer() {
 
             <IconContext.Provider value={{ size: "2rem" }}>
               <div className="flex w-full flex-row gap-3">
-                <a href="https://www.instagram.com/jamesdrakedp">
+                <a href="https://www.instagram.com/jamesdrakedp" target="_blank">
                   <FaInstagram />
                 </a>
-                <a href="">
+                <a href="https://www.facebook.com/jamesdrakedp" target="_blank">
                   <FaFacebookF />
                 </a>
-                <a href="">
+                <a href="https://x.com/jamesdrakemedia" target="_blank">
                   <FaXTwitter />
+                </a>
+                <a href="https://www.linkedin.com/in/jamesdrakedp/" target="_blank">
+                  <FaLinkedinIn />
                 </a>
               </div>
             </IconContext.Provider>

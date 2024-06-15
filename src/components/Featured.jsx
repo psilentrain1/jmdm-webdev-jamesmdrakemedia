@@ -1,6 +1,6 @@
 export function Featured() {
   return (
-    <section className="h-80 w-full bg-accent-700 text-primary-50">
+    <section id="Featured" className="h-80 w-full bg-accent-700 text-primary-50">
       <div className="mx-auto h-full w-3/4 py-10 text-center">
         <h2 className="mx-auto mb-4 text-2xl font-bold">Featured Projects</h2>
         <div id="feat-container" className="flex w-full flex-row gap-8">

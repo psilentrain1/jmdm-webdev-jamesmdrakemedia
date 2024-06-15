@@ -1,6 +1,6 @@
 export function About() {
   return (
-    <section className="h-80 w-full bg-primary-50 text-primary-950">
+    <section id="About" className="h-80 w-full bg-primary-50 text-primary-950">
       <div className="mx-auto flex h-full w-3/4 flex-row text-center">
         <div className="w-1/2 p-10">
           <div className="mx-auto aspect-video w-96 bg-primary-950">Placeholder</div>
@@ -12,7 +12,7 @@ export function About() {
             content including scripted and unscripted film and television, commercials, and sports and live events. I
             love traveling the world and capturing interesting stories that entertain and intrigue!
           </p>
-          <p className="mt-4">Find out more about me &rarr;</p>
+          {/* <p className="mt-4">Find out more about me &rarr;</p> */}
         </div>
       </div>
     </section>
