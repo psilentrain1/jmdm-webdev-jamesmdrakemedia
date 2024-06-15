@@ -11,7 +11,7 @@ function clearFilters() {
 
 function getCreditRow(credit, i) {
   return (
-    <tr key={i}>
+    <tr className="border-b-2 hover:bg-primary-100" key={i}>
       <td>{credit.position}</td>
       <td>{credit.title}</td>
       <td>{credit.type}</td>
@@ -32,20 +32,23 @@ function getCredits(setCreditsList, setPositionFilterOptions, setTypeFilterOptio
     })
     .then(credits => {
       const newCreditElement = credits.map((credit, i) => getCreditRow(credit, i))
-      const newPositionFilterOption = credits.map((credit, i) => {
+      const getNewPositionFilterOption = new Set(credits.map(credit => credit.position))
+      const newPositionFilterOption = [...getNewPositionFilterOption].map((position, i) => {
         return (
-          <option key={i} value={credit.position}>
-            {credit.position}
+          <option key={i} value={position}>
+            {position}
           </option>
         )
       })
-      const newTypeFilterOption = credits.map((credit, i) => {
+      const getNewTypeFilterOption = new Set(credits.map(credit => credit.type))
+      const newTypeFilterOption = [...getNewTypeFilterOption].map((type, i) => {
         return (
-          <option key={i} value={credit.type}>
-            {credit.type}
+          <option key={i} value={type}>
+            {type}
           </option>
         )
       })
+      console.log(getNewTypeFilterOption)
       const positions = new Set(newPositionFilterOption)
       const types = new Set(newTypeFilterOption)
       setCreditsList(newCreditElement)
@@ -125,7 +128,7 @@ export function Credits() {
           <div className="w-full pt-6">
             <table className="w-full table-auto text-left">
               <thead>
-                <tr>
+                <tr className="border-b-4">
                   <th>Position</th>
                   <th>Show Title</th>
                   <th>Show Type</th>
