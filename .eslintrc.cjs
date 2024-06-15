@@ -19,7 +19,7 @@ module.exports = {
     eqeqeq: "warn",
     "func-style": "off",
     "no-console": "warn",
-    "no-magic-numbers": "warn",
+    "no-magic-numbers": ["warn", { ignoreArrayIndexes: true }],
     "no-unneeded-ternary": "warn",
     "no-var": "error",
     "prefer-const": "warn",
