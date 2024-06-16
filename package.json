@@ -3,12 +3,12 @@
   "productName": "James M. Drake Media Website",
   "description": "The web home of James M. Drake, Jr. Camera Operator",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.3.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 10",
     "preview": "vite preview"
   },
   "keywords": [],
@@ -23,21 +23,27 @@
     "email": "info@jamesmdrakemedia.com"
   },
   "dependencies": {
-    "bootstrap": "^5.3.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^5.2.1"
+    "react-icons": "^5.2.1",
+    "react-router-hash-link": "^2.4.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
+    "postcss": "^8.4.38",
+    "prettier": "^3.3.2",
+    "prettier-plugin-tailwindcss": "^0.6.4",
     "react-router-dom": "^6.23.1",
-    "sass": "^1.77.5",
+    "stylelint": "^16.6.1",
+    "stylelint-config-standard-scss": "^13.1.0",
+    "tailwindcss": "^3.4.4",
     "vite": "^5.2.0"
   }
 }

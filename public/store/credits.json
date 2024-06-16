@@ -1,0 +1,344 @@
+[
+  {
+    "title": "2024 World Jiu-Jitsu IBJJF Championship",
+    "position": "Technical Director",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "FloGrappling",
+    "start": [6, 24],
+    "end": [6, 24]
+  },
+  {
+    "title": "Spear Phishing",
+    "position": "Camera Operator",
+    "type": "Narrative Feature",
+    "network": null,
+    "production": "Triple Sea Media",
+    "start": [12, 23],
+    "end": [12, 23]
+  },
+  {
+    "title": "90 Day Fiance: The Single Life S4",
+    "position": "Camera Operator",
+    "type": "Unscripted Television",
+    "network": "TLC",
+    "production": "Sharp Entertainment",
+    "start": [3, 23],
+    "end": [9, 23]
+  },
+  {
+    "title": "Real Murders of LA S1",
+    "position": "Camera Operator",
+    "type": "Unscripted Television",
+    "network": "Oxygen",
+    "production": "44 Blue Productions",
+    "start": [8, 23],
+    "end": [8, 23]
+  },
+  {
+    "title": "Real Murders of LA S1",
+    "position": "Drone Operator",
+    "type": "Unscripted Television",
+    "network": "Oxygen",
+    "production": "44 Blue Productions",
+    "start": [8, 23],
+    "end": [8, 23]
+  },
+  {
+    "title": "90 Day Fiance: Happily Ever After? S8",
+    "position": "Camera Operator",
+    "type": "Unscripted Television",
+    "network": "TLC",
+    "production": "Sharp Entertainment",
+    "start": [5, 23],
+    "end": [7, 23]
+  },
+  {
+    "title": "90 Day Fiance S10",
+    "position": "Camera Operator",
+    "type": "Unscripted Television",
+    "network": "TLC",
+    "production": "Sharp Entertainment",
+    "start": [7, 22],
+    "end": [6, 23]
+  },
+  {
+    "title": "Forbidden Love S1",
+    "position": "Camera Operator",
+    "type": "Unscripted Television",
+    "network": "TLC",
+    "production": "Sharp Entertainment",
+    "start": [5, 23],
+    "end": [5, 23]
+  },
+  {
+    "title": "The Terrell Show S6",
+    "position": "Camera Operator",
+    "type": "Talk Show",
+    "network": "Youtube",
+    "production": "Bluewall Records",
+    "start": [2, 23],
+    "end": [2, 23]
+  },
+  {
+    "title": "Before the 90 Days",
+    "position": "Camera Operator",
+    "type": "Unscripted Television",
+    "network": "TLC",
+    "production": "Sharp Entertainment",
+    "start": [10, 22],
+    "end": [12, 22]
+  },
+  {
+    "title": "The Great American Recipe S2",
+    "position": "Camera Operator",
+    "type": "Unscripted Television",
+    "network": "PBS",
+    "production": "Bright Road Productions",
+    "start": [9, 22],
+    "end": [9, 22]
+  },
+  {
+    "title": "90 Day Fiance: The Single Life S4",
+    "position": "Camera Operator",
+    "type": "Unscripted Television",
+    "network": "TLC",
+    "production": "Sharp Entertainment",
+    "start": [3, 23],
+    "end": [9, 23]
+  },
+  {
+    "title": "Beyond Oak Island S3",
+    "position": "Camera Operator",
+    "type": "Unscripted Television",
+    "network": "History",
+    "production": "Promethius Entertainment",
+    "start": [7, 22],
+    "end": [7, 22]
+  },
+  {
+    "title": "Love After Lockup S4",
+    "position": "Camera Operator",
+    "type": "Unscripted Television",
+    "network": "TLC",
+    "production": "Sharp Entertainment",
+    "start": [6, 22],
+    "end": [6, 22]
+  },
+  {
+    "title": "90 Day Fiance: The Single Life S3",
+    "position": "Camera Operator",
+    "type": "Unscripted Television",
+    "network": "TLC",
+    "production": "Sharp Entertainment",
+    "start": [6, 22],
+    "end": [12, 21]
+  },
+  {
+    "title": "In The Know: Climate Changemakers",
+    "position": "Camera Operator",
+    "type": "Unscripted Television",
+    "network": "ITK",
+    "production": "Malka Media",
+    "start": [3, 22],
+    "end": [3, 22]
+  },
+  {
+    "title": "ACS Lightens The Load",
+    "position": "Cinematographer",
+    "type": "Commercial",
+    "network": null,
+    "production": "M.A.M., Inc.",
+    "start": [11, 21],
+    "end": [11, 21]
+  },
+  {
+    "title": "JP JumPers Virtual Live Launch 2021",
+    "position": "Technical Director",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "12 Gates Films & Services",
+    "start": [11, 21],
+    "end": [11, 21]
+  },
+  {
+    "title": "In The Know: Next Gen",
+    "position": "Camera Operator",
+    "type": "Unscripted Television",
+    "network": "ITK",
+    "production": "Malka Media",
+    "start": [10, 21],
+    "end": [10, 21]
+  },
+  {
+    "title": "USBands Naval Academy Invitational",
+    "position": "Camera Operator",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "FloMarching",
+    "start": [10, 21],
+    "end": [10, 21]
+  },
+  {
+    "title": "USBands Maryland Virginia State Championships",
+    "position": "Camera Operator",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "FloMarching",
+    "start": [10, 21],
+    "end": [10, 21]
+  },
+  {
+    "title": "New Norm",
+    "position": "First Assistant Camera",
+    "type": "Narrative Feature",
+    "network": null,
+    "production": "SaltFire Films",
+    "start": [9, 21],
+    "end": [10, 21]
+  },
+  {
+    "title": "New Norm",
+    "position": "Drone Operator",
+    "type": "Narrative Feature",
+    "network": null,
+    "production": "SaltFire Films",
+    "start": [9, 21],
+    "end": [10, 21]
+  },
+  {
+    "title": "The Great American Recipe S1",
+    "position": "Camera Operator",
+    "type": "Unscripted Television",
+    "network": "PBS",
+    "production": "Bright Road Productions",
+    "start": [9, 21],
+    "end": [9, 21]
+  },
+  {
+    "title": "Love After Lockup S3",
+    "position": "Camera Operator",
+    "type": "Unscripted Television",
+    "network": "TLC",
+    "production": "Sharp Entertainment",
+    "start": [8, 21],
+    "end": [9, 21]
+  },
+  {
+    "title": "Love After Lockup S3",
+    "position": "Drone Operator",
+    "type": "Unscripted Television",
+    "network": "TLC",
+    "production": "Sharp Entertainment",
+    "start": [8, 21],
+    "end": [9, 21]
+  },
+  {
+    "title": "90 Day Fiance: The Single Life S2",
+    "position": "Camera Operator",
+    "type": "Unscripted Television",
+    "network": "TLC",
+    "production": "Sharp Entertainment",
+    "start": [7, 21],
+    "end": [8, 21]
+  },
+  {
+    "title": "Mr. Evans",
+    "position": "First Assistant Camera",
+    "type": "Narrative Television",
+    "network": "Streaming",
+    "production": "INTEGFilms",
+    "start": [7, 21],
+    "end": [7, 21]
+  },
+  {
+    "title": "How Do We Heal",
+    "position": "Cinematographer",
+    "type": "Narrative Television",
+    "network": "Streaming",
+    "production": "M.A.M., Inc.",
+    "start": [5, 21],
+    "end": [7, 21]
+  },
+  {
+    "title": "Twitter Analyst Day",
+    "position": "Cinematographer",
+    "type": "Live Event",
+    "network": "Twitter",
+    "production": "CreatorUp",
+    "start": [2, 21],
+    "end": [2, 21]
+  },
+  {
+    "title": "2021 Adidas Indoor Nationals",
+    "position": "Technical Director",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "FloTrack",
+    "start": [2, 21],
+    "end": [2, 21]
+  },
+  {
+    "title": "US Department of Energy Presents: Evolution of a Black Girl",
+    "position": "Technical Director",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "M.A.M., Inc.",
+    "start": [2, 21],
+    "end": [2, 21]
+  },
+  {
+    "title": "2021 AAU Indoor Championships",
+    "position": "Technical Director",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "FloTrack",
+    "start": [2, 21],
+    "end": [2, 21]
+  },
+  {
+    "title": "90 Day Fiance: Happily Ever After? S6",
+    "position": "Camera Operator",
+    "type": "Unscripted Television",
+    "network": "TLC",
+    "production": "Sharp Entertainment",
+    "start": [11, 20],
+    "end": [2, 21]
+  },
+  {
+    "title": "Stooping to Stand",
+    "position": "Cinematographer",
+    "type": "Narrative Short",
+    "network": "Internet",
+    "production": "M.A.M., Inc.",
+    "start": [12, 20],
+    "end": [1, 21]
+  },
+  {
+    "title": "AditxtEngage with Dr. Drew",
+    "position": "Camera Operator",
+    "type": "Unscripted Television",
+    "network": "drdrew.com",
+    "production": "Lemonlight Media",
+    "start": [12, 20],
+    "end": [12, 20]
+  },
+  {
+    "title": "Ulta Beauty Girls United S2",
+    "position": "Camera Operator",
+    "type": "Unscripted Television",
+    "network": "YouTube",
+    "production": "ESSENCE Magazine Online",
+    "start": [8, 20],
+    "end": [8, 20]
+  },
+  {
+    "title": "Bill of Rights Institute",
+    "position": "Cinematographer",
+    "type": "Education/Explainer",
+    "network": "Bill of Rights Institute",
+    "production": "CreatorUp",
+    "start": [8, 20],
+    "end": [8, 20]
+  }
+]

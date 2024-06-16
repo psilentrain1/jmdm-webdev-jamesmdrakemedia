@@ -13,6 +13,7 @@ dist-ssr
 *.local
 references
 jmdm-assets
+public/toPrepare
 
 # Editor directories and files
 .vscode/*
