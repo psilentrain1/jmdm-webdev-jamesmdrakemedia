@@ -40,7 +40,7 @@ function getCreditRow(credit, i) {
 }
 
 function getCredits(setCreditsList, setPositionFilterOptions, setTypeFilterOptions) {
-  const data = fetch("src/store/credits.json")
+  const data = fetch("/store/credits.json")
   data
     .then(res => {
       return res.json()
