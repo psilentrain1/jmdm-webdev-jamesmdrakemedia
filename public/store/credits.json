@@ -340,5 +340,869 @@
     "production": "CreatorUp",
     "start": [8, 20],
     "end": [8, 20]
+  },
+  {
+    "title": "Date Me",
+    "position": "First Assistant Camera",
+    "type": "Narrative Television",
+    "network": null,
+    "production": "SaltFire Films",
+    "start": [7, 20],
+    "end": [8, 20]
+  },
+  {
+    "title": "2019 JP JumPers Special Needs Talent and Awards Show",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "12 Gates Films & Services",
+    "start": [12, 19],
+    "end": [12, 19]
+  },
+  {
+    "title": "Date Me",
+    "position": "First Assistant Camera",
+    "type": "Narrative Television",
+    "network": null,
+    "production": "SaltFire Films",
+    "start": [7, 20],
+    "end": [8, 20]
+  },
+  {
+    "title": "Come Midnight S2",
+    "position": "Drone Operator",
+    "type": "Narrative Television",
+    "network": "YouTube",
+    "production": "Hampton University",
+    "start": [7, 19],
+    "end": [12, 19]
+  },
+  {
+    "title": "Date Me",
+    "position": "First Assistant Camera",
+    "type": "Narrative Television",
+    "network": null,
+    "production": "SaltFire Films",
+    "start": [7, 20],
+    "end": [8, 20]
+  },
+  {
+    "title": "24 Hours to Hell and Back S3",
+    "position": "Production Assistant",
+    "type": "Unscripted Television",
+    "network": "Fox",
+    "production": "Famous Kitchens Productions",
+    "start": [10, 19],
+    "end": [11, 19]
+  },
+  {
+    "title": "Unlocked Futures S2",
+    "position": "Second Assistant Camera",
+    "type": "Unscripted Television",
+    "network": "Internet",
+    "production": "Look at The Moon Pictures",
+    "start": [10, 19],
+    "end": [10, 19]
+  },
+  {
+    "title": "Bands of America Mid-Atlantic Regional",
+    "position": "Technical Director",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "FloMarching",
+    "start": [10, 19],
+    "end": [10, 19]
+  },
+  {
+    "title": "Bands of Americal Virginia Regional",
+    "position": "Technical Director",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "FloMarching",
+    "start": [10, 19],
+    "end": [10, 19]
+  },
+  {
+    "title": "Tell Me A Story",
+    "position": "Cinematographer",
+    "type": "Narrative Short",
+    "network": null,
+    "production": "School of Visual Arts",
+    "start": [8, 19],
+    "end": [10, 19]
+  },
+  {
+    "title": "MLG - Evolving Standards of Care",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [9, 19],
+    "end": [9, 19]
+  },
+  {
+    "title": "Heard",
+    "position": "Cinematographer",
+    "type": "Unscripted Feature",
+    "network": "PBS",
+    "production": "Belltower Pictures",
+    "start": [4, 19],
+    "end": [9, 19]
+  },
+  {
+    "title": "Come Midnight S2",
+    "position": "Cinematographer",
+    "type": "Narrative Television",
+    "network": "YouTube",
+    "production": "Hampton University",
+    "start": [3, 19],
+    "end": [9, 19]
+  },
+  {
+    "title": "PBA Harry O'Neale Chesapeake Open",
+    "position": "Camera Operator",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "FloBowling/PBA",
+    "start": [8, 19],
+    "end": [8, 19]
+  },
+  {
+    "title": "PMCA Capital Chapter Spark",
+    "position": "Technical Director",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [7, 19],
+    "end": [7, 19]
+  },
+  {
+    "title": "Roll Call: Georgetown Law",
+    "position": "Technical Director",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [6, 19],
+    "end": [6, 19]
+  },
+  {
+    "title": "US Finals: Virginia Beach",
+    "position": "Camera Operator",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "FloVarsity",
+    "start": [5, 19],
+    "end": [5, 19]
+  },
+  {
+    "title": "World Team Trials Challenge Tournament",
+    "position": "Camera Operator",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "FloGrappling",
+    "start": [5, 19],
+    "end": [5, 19]
+  },
+  {
+    "title": "JP JumPers Autism Walk",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": null,
+    "production": "12 Gates Films & Services",
+    "start": [4, 19],
+    "end": [4, 19]
+  },
+  {
+    "title": "AAU Indoor National Championships",
+    "position": "Technical Director",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "FloTrack",
+    "start": [3, 19],
+    "end": [3, 19]
+  },
+  {
+    "title": "MLG - Targeting Intracellular Signaling",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [3, 19],
+    "end": [3, 19]
+  },
+  {
+    "title": "Latino Coalition",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [3, 19],
+    "end": [3, 19]
+  },
+  {
+    "title": "Roll Call: Evolving American Electorate",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [3, 19],
+    "end": [3, 19]
+  },
+  {
+    "title": "Reach The Beach Nationals",
+    "position": "Camera Operator",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "FloVarsity",
+    "start": [3, 19],
+    "end": [3, 19]
+  },
+  {
+    "title": "Interview of Kevin DeSanto with Nick Wakeman",
+    "position": "Technical Director",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [2, 19],
+    "end": [2, 19]
+  },
+  {
+    "title": "MLG - NURSING EMPOWER",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [2, 19],
+    "end": [2, 19]
+  },
+  {
+    "title": "Roll Call: Empowering Patients as Partners",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [2, 19],
+    "end": [2, 19]
+  },
+  {
+    "title": "HBCU Spirit of America Bowl",
+    "position": "Camera Operator",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "FloFootball",
+    "start": [1, 19],
+    "end": [1, 19]
+  },
+  {
+    "title": "Dream Bowl",
+    "position": "Camera Operator",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "FloFootball",
+    "start": [1, 19],
+    "end": [1, 19]
+  },
+  {
+    "title": "JP JumPers Special Needs Service",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": null,
+    "production": "12 Gates Films & Services",
+    "start": [12, 18],
+    "end": [12, 18]
+  },
+  {
+    "title": "Roll Call: After the Races",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [11, 18],
+    "end": [11, 18]
+  },
+  {
+    "title": "Roll Call: Election Impact",
+    "position": "Technical Director",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [11, 18],
+    "end": [11, 18]
+  },
+  {
+    "title": "OneHockey Tournament",
+    "position": "Camera Operator",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "FloHockey",
+    "start": [11, 18],
+    "end": [11, 18]
+  },
+  {
+    "title": "Diabolical S2",
+    "position": "Production Assistant",
+    "type": "Unscripted Television",
+    "network": "Investigation Discovery",
+    "production": "Lion Television",
+    "start": [10, 18],
+    "end": [10, 18]
+  },
+  {
+    "title": "Solutions for an Evolving Health Care System",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [10, 18],
+    "end": [10, 18]
+  },
+  {
+    "title": "URAC Workshops",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [10, 18],
+    "end": [10, 18]
+  },
+  {
+    "title": "Vision Federal Market Forecast",
+    "position": "Technical Director",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [10, 18],
+    "end": [10, 18]
+  },
+  {
+    "title": "Airlines of America Summit",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [9, 18],
+    "end": [9, 18]
+  },
+  {
+    "title": "Benchmark Twilight Cycling Classic",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "SportStream Media",
+    "start": [8, 18],
+    "end": [8, 18]
+  },
+  {
+    "title": "Cassey's Cure",
+    "position": "Cinematographer",
+    "type": "Narrative Short",
+    "network": null,
+    "production": "Golden Thrones Productions",
+    "start": [8, 18],
+    "end": [8, 18]
+  },
+  {
+    "title": "Untitled U.S. Navy Project",
+    "position": "Production Assistant",
+    "type": "Education/Explainer",
+    "network": null,
+    "production": "Will Interactive",
+    "start": [8, 18],
+    "end": [8, 18]
+  },
+  {
+    "title": "Hanover Writers Group",
+    "position": "Cinematographer",
+    "type": "Unscripted Short",
+    "network": null,
+    "production": "BlueLight Services",
+    "start": [7, 18],
+    "end": [7, 18]
+  },
+  {
+    "title": "PMCA Capital Chapter REBOOT",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [7, 18],
+    "end": [7, 18]
+  },
+  {
+    "title": "SGMP National Education Conference",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [6, 18],
+    "end": [6, 18]
+  },
+  {
+    "title": "ASTA Policy & Leadership Development Conference",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [6, 18],
+    "end": [6, 18]
+  },
+  {
+    "title": "Perseverance: The Mighty Foundation",
+    "position": "Cinematographer",
+    "type": "Narrative Short",
+    "network": null,
+    "production": "BlueLight Services",
+    "start": [6, 18],
+    "end": [6, 18]
+  },
+  {
+    "title": "ALA Virtual Conference",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [5, 18],
+    "end": [5, 18]
+  },
+  {
+    "title": "US Finals: Virginia Beach",
+    "position": "Camera Operator",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "FloVarsity",
+    "start": [5, 18],
+    "end": [5, 18]
+  },
+  {
+    "title": "NHSCA National Duals",
+    "position": "Camera Operator",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "FloGrappling",
+    "start": [5, 18],
+    "end": [5, 18]
+  },
+  {
+    "title": "ADCA Reach the Beach All Star Nationals",
+    "position": "Camera Operator",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "FloVarsity",
+    "start": [4, 18],
+    "end": [4, 18]
+  },
+  {
+    "title": "AcaChallenge",
+    "position": "Camera Operator",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "FloSports",
+    "start": [4, 18],
+    "end": [4, 18]
+  },
+  {
+    "title": "Roll Call: Patient-Focused Health",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [4, 18],
+    "end": [4, 18]
+  },
+  {
+    "title": "NBCC Advocate Leadership Summit",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [4, 18],
+    "end": [4, 18]
+  },
+  {
+    "title": "Bravery",
+    "position": "Cinematographer",
+    "type": "Narrative Short",
+    "network": null,
+    "production": "Sandra Demetrius Productions",
+    "start": [1, 18],
+    "end": [4, 18]
+  },
+  {
+    "title": "The Bluelight",
+    "position": "Cinematographer",
+    "type": "Unscripted Short",
+    "network": null,
+    "production": "BlueLight Services",
+    "start": [3, 18],
+    "end": [3, 18]
+  },
+  {
+    "title": "Latino Coalition",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [3, 18],
+    "end": [3, 18]
+  },
+  {
+    "title": "NHSCA High School Nationals",
+    "position": "Camera Operator",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "FloGrappling",
+    "start": [3, 18],
+    "end": [3, 18]
+  },
+  {
+    "title": "St. James Invitational Tournament",
+    "position": "Camera Operator",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "FloHoops",
+    "start": [2, 18],
+    "end": [2, 18]
+  },
+  {
+    "title": "Richmond Spiders Basketball",
+    "position": "Camera Utility",
+    "type": "Sports",
+    "network": "Multiple",
+    "production": "Jim Porter Productions",
+    "start": [12, 17],
+    "end": [2, 18]
+  },
+  {
+    "title": "First Time Flippers S8",
+    "position": "Production Assistant",
+    "type": "Unscripted Television",
+    "network": "DIY Network",
+    "production": "Boy Wonder Productions",
+    "start": [2, 18],
+    "end": [11, 17]
+  },
+  {
+    "title": "Yuletide Ballroom Championships",
+    "position": "Camera Operator",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "FloDance",
+    "start": [12, 17],
+    "end": [1, 18]
+  },
+  {
+    "title": "Roll Call: Infrastructure Decoded",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [12, 17],
+    "end": [12, 17]
+  },
+  {
+    "title": "First Time Flippers S5",
+    "position": "Production Assistant",
+    "type": "Unscripted Television",
+    "network": "DIY Network",
+    "production": "Boy Wonder Productions",
+    "start": [11, 17],
+    "end": [11, 17]
+  },
+  {
+    "title": "PSC Council Vision",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [11, 17],
+    "end": [11, 17]
+  },
+  {
+    "title": "The Miracle Project",
+    "position": "Cinematographer",
+    "type": "Narrative Short",
+    "network": null,
+    "production": "Sandra Demetrius Productions",
+    "start": [11, 17],
+    "end": [11, 17]
+  },
+  {
+    "title": "PMCA Capital Chapter REWIND",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [11, 17],
+    "end": [11, 17]
+  },
+  {
+    "title": "No Idea",
+    "position": "Cinematographer",
+    "type": "Narrative Short",
+    "network": null,
+    "production": null,
+    "start": [11, 17],
+    "end": [11, 17]
+  },
+  {
+    "title": "CEI Strategic Big Southern Classic",
+    "position": "Camera Operator",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "FloSports",
+    "start": [11, 17],
+    "end": [11, 17]
+  },
+  {
+    "title": "Government IT Sales Summit",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [11, 17],
+    "end": [11, 17]
+  },
+  {
+    "title": "Richmond Spiders Football",
+    "position": "Camera Utility",
+    "type": "Sports",
+    "network": "Multiple",
+    "production": "Jim Porter Productions",
+    "start": [10, 17],
+    "end": [10, 17]
+  },
+  {
+    "title": "AFCEA/SIGNAL Live Event",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [10, 17],
+    "end": [10, 17]
+  },
+  {
+    "title": "Digital Transformation: IT Modernization",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [10, 17],
+    "end": [10, 17]
+  },
+  {
+    "title": "Kids & Couture",
+    "position": "Cinematographer",
+    "type": "Narrative Short",
+    "network": null,
+    "production": "Sandra Demetrius Productions",
+    "start": [10, 17],
+    "end": [10, 17]
+  },
+  {
+    "title": "The Gym Downtown - Norfolk",
+    "position": "Cinematographer",
+    "type": "Commercial",
+    "network": null,
+    "production": "Golden Thrones Productions",
+    "start": [10, 17],
+    "end": [10, 17]
+  },
+  {
+    "title": "Arrow - Data Everywhere",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": "Internet",
+    "production": "Performedia",
+    "start": [9, 17],
+    "end": [9, 17]
+  },
+  {
+    "title": "St. John's College vs. St. John's Bosco",
+    "position": "Camera Operator",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "FloFootball",
+    "start": [9, 17],
+    "end": [9, 17]
+  },
+  {
+    "title": "Strange Inheritance",
+    "position": "Production Assistant",
+    "type": "Unscripted Television",
+    "network": "Fox Business Network",
+    "production": "Towers Productions",
+    "start": [5, 17],
+    "end": [9, 17]
+  },
+  {
+    "title": "American Heritage vs. Bishop Sullivan",
+    "position": "Camera Operator",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "FloFootball",
+    "start": [8, 17],
+    "end": [8, 17]
+  },
+  {
+    "title": "DCI Tour of Champions",
+    "position": "Camera Operator",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "FloMarching",
+    "start": [7, 17],
+    "end": [7, 17]
+  },
+  {
+    "title": "Look Now, Look Again",
+    "position": "Cinematographer",
+    "type": "Narrative Short",
+    "network": null,
+    "production": "Golden Thrones Productions",
+    "start": [7, 17],
+    "end": [7, 17]
+  },
+  {
+    "title": "National Lacrosse Classic",
+    "position": "Camera Operator",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "First Scout Productions",
+    "start": [7, 17],
+    "end": [7, 17]
+  },
+  {
+    "title": "Lamayah - Yesterday",
+    "position": "First Assistant Camera",
+    "type": "Music Video",
+    "network": null,
+    "production": "TVJerry Productions",
+    "start": [7, 17],
+    "end": [7, 17]
+  },
+  {
+    "title": "US Finals: Virginia Beach",
+    "position": "Camera Operator",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "FloVarsity",
+    "start": [5, 17],
+    "end": [5, 17]
+  },
+  {
+    "title": "Major League Triathlon",
+    "position": "Camera Operator",
+    "type": "Sports",
+    "network": "Internet",
+    "production": "SportStream Media",
+    "start": [5, 17],
+    "end": [5, 17]
+  },
+  {
+    "title": "Arijit Singh, Live in Concert",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": null,
+    "production": "EVP Productions",
+    "start": [4, 17],
+    "end": [4, 17]
+  },
+  {
+    "title": "David",
+    "position": "Cinematographer",
+    "type": "Narrative Short",
+    "network": null,
+    "production": "Sandra Demetrius Productions",
+    "start": [3, 17],
+    "end": [4, 17]
+  },
+  {
+    "title": "Richmond Spiders Basketball",
+    "position": "Camera Utility",
+    "type": "Sports",
+    "network": "Multiple",
+    "production": "Jim Porter Productions",
+    "start": [10, 16],
+    "end": [3, 17]
+  },
+  {
+    "title": "The Story",
+    "position": "Cinematographer",
+    "type": "Narrative Short",
+    "network": null,
+    "production": "BlueLight Services",
+    "start": [2, 17],
+    "end": [2, 17]
+  },
+  {
+    "title": "The Voluntourist (Pilot)",
+    "position": "Cinematographer",
+    "type": "Unscripted Television",
+    "network": null,
+    "production": "FloVarsity",
+    "start": [7, 16],
+    "end": [7, 16]
+  },
+  {
+    "title": "Zenz Massage Stones",
+    "position": "Cinematographer",
+    "type": "Education/Explainer",
+    "network": null,
+    "production": "Linda Thornburg Productions",
+    "start": [7, 16],
+    "end": [7, 16]
+  },
+  {
+    "title": "The Five Hour Interview",
+    "position": "Cinematographer",
+    "type": "Narrative Short",
+    "network": null,
+    "production": "BlueLight Services",
+    "start": [5, 16],
+    "end": [5, 16]
+  },
+  {
+    "title": "Specters",
+    "position": "Cinematographer",
+    "type": "Narrative Short",
+    "network": null,
+    "production": "BlueLight Services",
+    "start": [4, 16],
+    "end": [4, 16]
+  },
+  {
+    "title": "Tom's Last Night",
+    "position": "Cinematographer",
+    "type": "Narrative Short",
+    "network": null,
+    "production": "BlueLight Services",
+    "start": [3, 16],
+    "end": [3, 16]
+  },
+  {
+    "title": "The Color of Pain",
+    "position": "Cinematographer",
+    "type": "Narrative Short",
+    "network": null,
+    "production": "Motives 2 Motivate, LLC",
+    "start": [3, 15],
+    "end": [5, 15]
+  },
+  {
+    "title": "Evolution of a Black Girl",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": null,
+    "production": "M.A.M., Inc.",
+    "start": [1, 15],
+    "end": [1, 15]
+  },
+  {
+    "title": "She's Got Issues",
+    "position": "Camera Operator",
+    "type": "Live Event",
+    "network": null,
+    "production": "M.A.M., Inc.",
+    "start": [7, 14],
+    "end": [7, 14]
   }
 ]
