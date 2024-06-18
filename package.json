@@ -3,7 +3,7 @@
   "productName": "James M. Drake Media Website",
   "description": "The web home of James M. Drake, Jr. Camera Operator",
   "private": true,
-  "version": "1.1.0",
+  "version": "1.1.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
