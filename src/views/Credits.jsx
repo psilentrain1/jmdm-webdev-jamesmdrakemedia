@@ -1,6 +1,11 @@
 import { Header } from "../components/Header.jsx"
 import { Footer } from "../components/Footer.jsx"
+import { Bars } from "react-loader-spinner"
 import { useState, useEffect } from "react"
+
+function LoadingBars() {
+  return <Bars color="#003cff" ariaLabel="Loading" />
+}
 
 function clearFilters(setCreditsList, setPositionFilterOptions, setTypeFilterOptions) {
   document.getElementById("position").selectedIndex = 0
@@ -27,19 +32,19 @@ function filterCreditRow(credit, i, positionFilter, typeFilter) {
 function getCreditRow(credit, i) {
   return (
     <tr className="border-b-2 hover:bg-primary-100" key={i}>
-      <td>{credit.position}</td>
-      <td>{credit.title}</td>
-      <td>{credit.type}</td>
-      <td>{credit.network}</td>
-      <td>{credit.production}</td>
-      <td>
+      <td className="px-2">{credit.position}</td>
+      <td className="px-2">{credit.title}</td>
+      <td className="px-2">{credit.type}</td>
+      <td className="px-2">{credit.network}</td>
+      <td className="px-2">{credit.production}</td>
+      <td className="px-2">
         {credit.start[0]}/{credit.start[1]}-{credit.end[0]}/{credit.end[1]}
       </td>
     </tr>
   )
 }
 
-function getCredits(setCreditsList, setPositionFilterOptions, setTypeFilterOptions) {
+function getCredits(setCreditsList, setPositionFilterOptions, setTypeFilterOptions, setIsFetching) {
   const data = fetch("/store/credits.json")
   data
     .then(res => {
@@ -70,6 +75,7 @@ function getCredits(setCreditsList, setPositionFilterOptions, setTypeFilterOptio
       setCreditsList(newCreditElement)
       setPositionFilterOptions(positions)
       setTypeFilterOptions(types)
+      setIsFetching(false)
     })
 }
 
@@ -78,8 +84,9 @@ export function Credits() {
   const [positionFilterOptions, setPositionFilterOptions] = useState([])
   const [typeFilterOptions, setTypeFilterOptions] = useState([])
   const [creditsList, setCreditsList] = useState([])
+  const [isFetching, setIsFetching] = useState([true])
   useEffect(() => {
-    getCredits(setCreditsList, setPositionFilterOptions, setTypeFilterOptions)
+    getCredits(setCreditsList, setPositionFilterOptions, setTypeFilterOptions, setIsFetching)
   }, [])
 
   return (
@@ -163,7 +170,7 @@ export function Credits() {
                   <th>Dates</th>
                 </tr>
               </thead>
-              <tbody>{creditsList}</tbody>
+              {isFetching ? <LoadingBars /> : <tbody>{creditsList}</tbody>}
             </table>
           </div>
         </div>
