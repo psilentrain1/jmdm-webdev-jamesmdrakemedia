@@ -1,8 +1,15 @@
-# React + Vite
+# James M. Drake Media
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+_The new official website of Cinematographer and Camera Operator James M. Drake, Jr._
 
-Currently, two official plugins are available:
+[View website here](https://jamesmdrakemedia.com)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+
+Built on the following:
+
+- React
+- Javascript
+- Tailwind
+
+Website ©2024 James M. Drake Media. All rights reserved. All media copyright their respective owners and used with permission.
