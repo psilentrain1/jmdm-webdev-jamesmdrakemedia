@@ -1,13 +1,15 @@
 import { HashLink as Link } from "react-router-hash-link"
 
 export function Header() {
+  // TODO: Add logic to hide the normal nav menu for smaller screens and show the hamburger menu
+
   return (
     <section className="fixed top-0 flex h-14 w-full flex-col justify-center bg-primary-950 text-primary-50">
       <div className="mx-auto flex w-5/6 flex-row justify-between">
-        <div>
+        <div className="w-1/2">
           <Link to="/#Hero">
             <div>
-              <div className="mb-0 text-2xl font-bold leading-none">James M. Drake, Jr.</div>
+              <div className="mb-0 font-bold leading-none md:text-2xl">James M. Drake, Jr.</div>
               <div className="mt-0 text-xs leading-none">Cinematographer & Camera Operator</div>
             </div>
           </Link>

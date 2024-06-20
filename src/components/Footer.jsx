@@ -8,9 +8,9 @@ export function Footer() {
 
   return (
     <>
-      <section className="h-60 w-full bg-accent-700 text-primary-50">
-        <div className="mx-auto flex h-full w-3/4 flex-row">
-          <div className="w-1/3 p-10">
+      <section className="w-full bg-accent-700 text-primary-50 md:h-60">
+        <div className="mx-auto flex h-full w-5/6 flex-col text-center md:w-3/4 md:flex-row md:text-left">
+          <div className="p-5 md:w-1/3 md:p-10">
             <h3 className="mb-2 text-xl font-bold">Links</h3>
             <ul>
               <li>
@@ -35,11 +35,11 @@ export function Footer() {
               </li>
             </ul>
           </div>
-          <div className="w-1/3 p-10">
+          <div className="p-5 md:w-1/3 md:p-10">
             <h3 className="mb-2 text-xl font-bold">Connect with me</h3>
 
             <IconContext.Provider value={{ size: "2rem" }}>
-              <div className="flex w-full flex-row gap-3">
+              <div className="mx-auto flex w-7/12 flex-row gap-3 md:mx-0 md:w-full">
                 <a href="https://www.instagram.com/jamesdrakedp" target="_blank">
                   <FaInstagram />
                 </a>
@@ -55,13 +55,13 @@ export function Footer() {
               </div>
             </IconContext.Provider>
           </div>
-          <div className="w-1/3 p-10">
+          <div className="p-5 md:w-1/3 md:p-10">
             <h3 className="mb-2 text-xl font-bold">Posts</h3>
             <p>Coming soon!</p>
           </div>
         </div>
       </section>
-      <section className="flex h-10 w-full flex-col justify-center bg-primary-950 text-center text-xs text-primary-200">
+      <section className="mt-2 flex h-10 w-full flex-col justify-center bg-primary-950 text-center text-xs text-primary-200">
         <p>
           &copy;2024 James M. Drake, Jr. All rights reserved. All media copyright their respective owners.{" "}
           <a
