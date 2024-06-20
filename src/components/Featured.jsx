@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 export function Featured() {
   return (
-    <section id="Featured" className="w-full bg-accent-700 text-primary-50 md:h-80">
+    <section id="Featured" className="w-full bg-accent-700 text-primary-50 lg:h-80">
       <div className="mx-auto h-full py-10 text-center md:w-3/4">
         <h2 className="mx-auto mb-4 text-2xl font-bold">Featured Projects</h2>
         <div id="feat-container" className="flex flex-row gap-4 overflow-scroll md:w-full">
