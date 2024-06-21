@@ -1,6 +1,6 @@
 export function About() {
   return (
-    <section id="About" className="w-full bg-primary-50 text-primary-950 lg:h-96">
+    <section id="About" className="w-full bg-primary-50 text-primary-950">
       <div className="mx-auto flex h-full w-3/4 flex-col text-center lg:flex-row">
         <div className="p-5 lg:w-1/2 lg:p-10">
           <div className="mx-auto aspect-[7/5] w-full bg-[url(/media/About-720x540.jpeg)] bg-cover lg:w-96"></div>
