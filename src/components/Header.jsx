@@ -1,5 +1,6 @@
 import { HashLink as Link } from "react-router-hash-link"
 import { slide as Menu } from "react-burger-menu"
+import { FiMenu } from "react-icons/fi"
 
 function NavMenuDesktop() {
   return (
@@ -19,7 +20,7 @@ function NavMenuDesktop() {
 
 function NavMenuMobile() {
   return (
-    <Menu right>
+    <Menu right customBurgerIcon={<FiMenu />}>
       <Link to="/#About">About</Link>
       <Link to="/#Contact">Contact</Link>
       <Link to="/Credits">Credits</Link>
@@ -28,9 +29,6 @@ function NavMenuMobile() {
 }
 
 export function Header() {
-  // TODO: Add logic to hide the normal nav menu for smaller screens and show the hamburger menu
-  // 640px breakpoint - screen.width <= 640
-
   return (
     <section className="fixed top-0 flex h-14 w-full flex-col justify-center bg-primary-950 text-primary-50">
       <div className="mx-auto flex w-5/6 flex-row justify-between">
