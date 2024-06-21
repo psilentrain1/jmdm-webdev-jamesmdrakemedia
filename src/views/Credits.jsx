@@ -106,7 +106,7 @@ export function Credits() {
             </span>
           </div>
           <div className={`${filter ? "" : "hidden"}`}>
-            <div className="flex flex-row gap-4">
+            <div className="flex flex-col gap-4 md:flex-row">
               <label htmlFor="position">
                 Position:{" "}
                 <select
