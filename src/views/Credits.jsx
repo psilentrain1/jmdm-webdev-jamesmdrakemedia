@@ -92,8 +92,8 @@ export function Credits() {
   return (
     <>
       <Header />
-      <section id="top" className="mt-14 bg-primary-50 p-10">
-        <div className="mx-auto w-3/4">
+      <section id="top" className="mt-14 bg-primary-50 p-2 lg:p-10">
+        <div className="mx-auto w-5/6 lg:w-3/4">
           <h1 className="text-3xl font-bold">Credits</h1>
           <div className="font-sm text-primary-500">
             <span
@@ -106,7 +106,7 @@ export function Credits() {
             </span>
           </div>
           <div className={`${filter ? "" : "hidden"}`}>
-            <div className="flex flex-row gap-4">
+            <div className="flex flex-col gap-4 md:flex-row">
               <label htmlFor="position">
                 Position:{" "}
                 <select
@@ -158,7 +158,7 @@ export function Credits() {
               </span>
             </div>
           </div>
-          <div className="w-full pt-6">
+          <div className="w-full overflow-scroll pt-6">
             <table className="w-full table-auto text-left">
               <thead>
                 <tr className="border-b-4">
