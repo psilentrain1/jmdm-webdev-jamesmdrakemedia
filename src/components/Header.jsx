@@ -34,10 +34,10 @@ export function Header() {
   return (
     <section className="fixed top-0 flex h-14 w-full flex-col justify-center bg-primary-950 text-primary-50">
       <div className="mx-auto flex w-5/6 flex-row justify-between">
-        <div className="w-1/2">
+        <div className="w-3/4 md:w-1/2">
           <Link to="/#Hero">
             <div>
-              <div className="mb-0 font-bold leading-none md:text-2xl">James M. Drake, Jr.</div>
+              <div className="mb-0 text-lg font-bold leading-none md:text-2xl">James M. Drake, Jr.</div>
               <div className="mt-0 text-xs leading-none">Cinematographer & Camera Operator</div>
             </div>
           </Link>
