@@ -29,6 +29,7 @@ function NavMenuMobile() {
 }
 
 export function Header() {
+  const screenSizeSmall = 640
   return (
     <section className="fixed top-0 flex h-14 w-full flex-col justify-center bg-primary-950 text-primary-50">
       <div className="mx-auto flex w-5/6 flex-row justify-between">
@@ -41,7 +42,7 @@ export function Header() {
           </Link>
         </div>
         <div className="flex flex-col justify-center">
-          {screen.width <= 640 ? <NavMenuMobile /> : <NavMenuDesktop />}
+          {screen.width <= screenSizeSmall ? <NavMenuMobile /> : <NavMenuDesktop />}
         </div>
       </div>
     </section>
