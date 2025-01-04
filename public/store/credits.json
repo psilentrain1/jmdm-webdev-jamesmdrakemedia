@@ -1,5 +1,14 @@
 [
   {
+    "title": "Love After Lockup S6",
+    "position": "Camera Operator",
+    "type": "Unscripted Television",
+    "network": "We TV",
+    "production": "Sharp Entertainment",
+    "start": [11, 24],
+    "end": [11, 24]
+  },
+  {
     "title": "2024 World Jiu-Jitsu IBJJF Championship",
     "position": "Technical Director",
     "type": "Sports",
@@ -120,7 +129,7 @@
     "title": "Love After Lockup S4",
     "position": "Camera Operator",
     "type": "Unscripted Television",
-    "network": "TLC",
+    "network": "We TV",
     "production": "Sharp Entertainment",
     "start": [6, 22],
     "end": [6, 22]
@@ -219,7 +228,7 @@
     "title": "Love After Lockup S3",
     "position": "Camera Operator",
     "type": "Unscripted Television",
-    "network": "TLC",
+    "network": "We TV",
     "production": "Sharp Entertainment",
     "start": [8, 21],
     "end": [9, 21]
@@ -228,7 +237,7 @@
     "title": "Love After Lockup S3",
     "position": "Drone Operator",
     "type": "Unscripted Television",
-    "network": "TLC",
+    "network": "We TV",
     "production": "Sharp Entertainment",
     "start": [8, 21],
     "end": [9, 21]
